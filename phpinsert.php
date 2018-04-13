@@ -6,6 +6,6 @@ if (isset($_POST['nombre'] )&& !empty($_POST['nombre']) && isset($_POST ['pw'] )
    echo ' ejecuto'."<br/> $_POST[nombre]',' $_POST[pw]";
    mysql_query("insert into pasw (nombre, password ) values('$_POST[nombre]', '$_POST[pw]')", $con);
 } else {
-    echo 'no se ejecuto esto';    
+    echo 'no se ejecuto esto xq nose';    
 }
 ?>
