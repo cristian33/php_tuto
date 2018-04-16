@@ -10,7 +10,7 @@ and open the template in the editor.
         <title></title>
     </head>
     <body>
-        <form action="Formphp.php" method="get" name="frm">
+        <form action="Formphp.php" method="get" name="fmr">
             <input type="text" name="nombre"/>
             <input type="text" name="apellido"/>
             <input type="submit" name="enviar"/>
